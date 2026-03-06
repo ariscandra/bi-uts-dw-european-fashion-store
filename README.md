@@ -1,7 +1,7 @@
 <a name="top"></a>
 
 <div align="center">
-  <img src="docs/poster.png" alt="Poster Proyek Data Warehouse European Fashion Store">
+  <img src="docs/poster.png" alt="Poster Proyek Data Warehouse European Fashion Store" width="100%">
 </div>
 
 <p align="center">
@@ -49,11 +49,15 @@
 
 ## 🔗 Link Penting
 
+<div align="center">
+
 | Link | Deskripsi |
 |------|-----------|
 | [**Google Colab**](https://colab.research.google.com/drive/1CGMfDZrWjQG0U6nqavsL6oAuKqOZPkZD?usp=sharing) | Notebook ETL siap dijalankan (tanpa perlu clone) |
 | [**GitHub Repo**](https://github.com/ariscandra/bi-uts-dw-european-fashion-store) | Repositori proyek |
 | [**Kaggle Dataset**](https://www.kaggle.com/datasets/joycemara/european-fashion-store-multitable-dataset) | European Fashion Store (Multitable E-Commerce) |
+
+</div>
 
 ---
 
@@ -69,15 +73,21 @@
   <img src="https://img.shields.io/badge/Analisis-Business_Insight-8b5cf6?style=flat-square" alt="Analisis" />
 </p>
 
+<div align="center">
+
 | Tujuan | Keterangan |
 |--------|------------|
 | Membangun data warehouse | Star schema dari data European Fashion Store |
 | Menerapkan ETL lengkap | Extract, Transform, Load dengan Python/pandas |
 | Analisis bisnis | Insight penjualan per channel, negara, kategori, tren bulanan |
 
+</div>
+
 ---
 
 ## 👥 Profil Kelompok
+
+<div align="center">
 
 | Nama | NIM | Kelas |
 |------|-----|-------|
@@ -85,6 +95,8 @@
 | Raihan Fariz Novanto | 2409116083 | Sistem Informasi C '24 |
 | Aris Candra Muzaffar | 2409116088 | Sistem Informasi C '24 |
 | Jabbar Hafizh Abdillah | 2409116116 | Sistem Informasi C '24 |
+
+</div>
 
 ---
 
@@ -96,6 +108,8 @@
   <img src="https://img.shields.io/badge/Colab-Cloud_Notebook-F9AB00?style=flat-square&logo=googlecolab" alt="Colab" />
 </p>
 
+<div align="center">
+
 | Komponen | Teknologi |
 |----------|-----------|
 | **Bahasa** | Python 3 |
@@ -103,6 +117,8 @@
 | **Environment** | Google Colab |
 | **Arsitektur** | Star Schema |
 | **Sumber Data** | 7 file CSV (Kaggle) |
+
+</div>
 
 ---
 
@@ -116,6 +132,8 @@
   </a>
 </p>
 
+<div align="center">
+
 | File | Deskripsi |
 |------|-----------|
 | `dataset_fashion_store_sales.csv` | Transaksi penjualan |
@@ -125,6 +143,8 @@
 | `dataset_fashion_store_channels.csv` | Channel penjualan (E-commerce, App Mobile) |
 | `dataset_fashion_store_campaigns.csv` | Data kampanye |
 | `dataset_fashion_store_stock.csv` | Data stok |
+
+</div>
 
 <details>
 <summary><b>Detail struktur dataset</b></summary>
@@ -149,6 +169,8 @@ Proyek ini menggunakan desain **star schema** dengan satu tabel fakta dan empat 
   <img src="docs/schema_dw.jpg" alt="Diagram Star Schema" width="500">
 </div>
 
+<div align="center">
+
 | Tabel | Tipe | Deskripsi |
 |-------|------|-----------|
 | `fact_sales` | Fact | Transaksi penjualan (revenue, quantity, dll.) |
@@ -156,6 +178,8 @@ Proyek ini menggunakan desain **star schema** dengan satu tabel fakta dan empat 
 | `dim_product` | Dimension | Produk (kategori, nama, harga) |
 | `dim_date` | Dimension | Tanggal (tahun, bulan, hari) |
 | `dim_channel` | Dimension | Channel (E-commerce, App Mobile) |
+
+</div>
 
 <details>
 <summary><b>Detail relasi tabel</b></summary>
