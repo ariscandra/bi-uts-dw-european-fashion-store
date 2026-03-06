@@ -1,7 +1,7 @@
 <a name="top"></a>
 
 <div align="center">
-  <img src="docs/poster.png" alt="Poster Proyek Data Warehouse European Fashion Store" width="600">
+  <img src="docs/poster.png" alt="Poster Proyek Data Warehouse European Fashion Store">
 </div>
 
 <p align="center">
